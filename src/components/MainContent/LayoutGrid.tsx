@@ -1,12 +1,12 @@
 import React from "react";
 import "./LayoutGrid.css";
 
-import card1 from "../../assets/images/card1.png";
-import card2 from "../../assets/images/card2.png";
-import card3 from "../../assets/images/card3.png";
-import card6 from "../../assets/images/card6.png";
-import card7 from "../../assets/images/card7.png";
-import card9 from "../../assets/images/card9.png";
+import card1 from "../../../public/assets/images/card1.png";
+import card2 from "../../../public/assets/images/card2.png";
+import card3 from "../../../public/assets/images/card3.png";
+import card6 from "../../../public/assets/images/card6.png";
+import card7 from "../../../public/assets/images/card7.png";
+import card9 from "../../../public/assets/images/card9.png";
 
 const LayoutGrid: React.FC = () => {
   return (

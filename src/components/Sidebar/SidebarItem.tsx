@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./SidebarItem.css";
-import ArrowDown from "../../assets/icons/arrowdown.svg";
+import ArrowDown from "../../../public/assets/icons/arrowdown.svg";
 
 interface SidebarItemProps {
   icon: string;
