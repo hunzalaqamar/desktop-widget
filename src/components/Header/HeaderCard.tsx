@@ -1,9 +1,8 @@
 import React from "react";
 import "./HeaderCard.css";
-import { IoReload } from "react-icons/io5"; // Using IoReload from react-icons
+import { IoReload } from "react-icons/io5";
 
 const HeaderCard: React.FC = () => {
-  // Function to reload the page
   const handleReload = () => {
     window.location.reload();
   };
@@ -29,7 +28,7 @@ const HeaderCard: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="background-card"></div> {/* The white background card */}
+      <div className="background-card"></div>
     </div>
   );
 };

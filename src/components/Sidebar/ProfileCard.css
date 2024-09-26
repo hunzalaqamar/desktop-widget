@@ -1,5 +1,5 @@
 .profile-card {
-  background: #2b9a8f; /* Card background color */
+  background: #2b9a8f;
   border-radius: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -39,7 +39,7 @@
 }
 
 .profile-button {
-  background: #76c7c0; /* Button background color */
+  background: #76c7c0;
   color: #ffffff;
   padding: 8px 16px;
   border: none;
@@ -50,5 +50,5 @@
 }
 
 .profile-button:hover {
-  background: #5aaba4; /* Slightly darker shade on hover */
+  background: #5aaba4;
 }

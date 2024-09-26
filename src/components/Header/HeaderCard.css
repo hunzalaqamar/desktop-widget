@@ -6,7 +6,7 @@
 }
 
 .header-card {
-  background: #459e97; /* Header color */
+  background: #459e97;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 20px 30px;
@@ -29,14 +29,14 @@
 .header-title {
   font-size: 18px;
   font-weight: bold;
-  color: #ffffff; /* White text color for the title */
+  color: #ffffff;
   margin: 0;
   padding-top: 10px;
 }
 
 .header-subtitle {
   font-size: 14px;
-  color: #e0f7fa; /* Subtitle color */
+  color: #e0f7fa;
 }
 
 .reload-section {
@@ -56,11 +56,11 @@
 }
 
 .background-card {
-  background: #ffffff; /* White card background */
+  background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds soft shadow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   position: absolute;
-  top: 40px; /* Adjust as needed to align with the header */
+  top: 40px;
   left: 0;
   right: 0;
   height: 100vh;
