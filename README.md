@@ -1,7 +1,3 @@
-Here's a rewritten version of your README file that highlights the desktop widget you created, including a description of its design and functionality. Since I can't embed images directly here, I suggest you add the provided live image of your widget manually in your README file using Markdown.
-
----
-
 # Desktop Widget from Figma Design
 
 Welcome to the **ImmoTrust Desktop Widget**, an innovative and user-friendly desktop application inspired by a sleek Figma design. This widget brings a stylish and functional interface directly to your screen, combining modern design elements with practical features to enhance your workflow.
@@ -30,9 +26,8 @@ This desktop widget was meticulously designed and developed to provide users wit
 
 ### Live Preview
 
-![ImmoTrust Desktop Widget Preview](./path-to-your-uploaded-image.png)
+![ImmoTrust Desktop Widget Preview](https://github.com/hunzalaqamar/desktop-widget/blob/master/public/platformpreview.png)
 
-> Replace `./path-to-your-uploaded-image.png` with the actual path to your uploaded image in your project directory.
 
 ### Technology Stack
 
