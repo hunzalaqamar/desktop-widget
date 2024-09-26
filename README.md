@@ -45,9 +45,3 @@ cd <project-directory>
 npm install
 npm run dev
 ```
-
-Enjoy exploring and customizing the ImmoTrust Desktop Widget to fit your needs!
-
----
-
-Feel free to add this content to your project’s README file and adjust the image path as needed. The description captures the elegance, usability, and unique aspects of your widget, highlighting its cool features and functional design.
