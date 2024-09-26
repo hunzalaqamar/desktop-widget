@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SidebarItem.css";
 import ArrowDown from "../../assets/icons/arrowdown.svg";
 
@@ -17,6 +17,12 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
   badgeText,
   selected,
 }) => {
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!isDropdownOpen);
+  };
+
   return (
     <div className={`sidebar-item ${selected ? "selected" : ""}`}>
       <div className="sidebar-item-icon">
@@ -26,15 +32,31 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
         <div className="title-badge">
           <h3 className="sidebar-item-title">{title}</h3>
           {badgeText && (
-            <div className="sidebar-item-badge">
+            <div
+              className="sidebar-item-badge"
+              onClick={badgeText === "PDF" ? toggleDropdown : undefined}
+            >
               {badgeText}
               {badgeText === "PDF" && (
-                <img src={ArrowDown} alt={`${ArrowDown} icon`} />
+                <img
+                  src={ArrowDown}
+                  alt="Dropdown icon"
+                  className={`arrow-icon ${isDropdownOpen ? "open" : ""}`}
+                />
               )}
             </div>
           )}
         </div>
         <p className="sidebar-item-subtitle">{subtitle}</p>
+        {isDropdownOpen && badgeText === "PDF" && (
+          <div className="dropdown-menu">
+            <ul>
+              <li>Download PDF</li>
+              <li>View Details</li>
+              <li>Share</li>
+            </ul>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -3,6 +3,11 @@ import "./HeaderCard.css";
 import { IoReload } from "react-icons/io5"; // Using IoReload from react-icons
 
 const HeaderCard: React.FC = () => {
+  // Function to reload the page
+  const handleReload = () => {
+    window.location.reload();
+  };
+
   return (
     <div className="header-wrapper">
       <div className="header-card">
@@ -18,7 +23,7 @@ const HeaderCard: React.FC = () => {
               Entdecken Sie mühelos jede Facette Ihres Verkaufsmandatsvertrags.
             </p>
           </div>
-          <div className="reload-section">
+          <div className="reload-section" onClick={handleReload}>
             <IoReload className="reload-icon" />
             <span className="reload-text">Reload</span>
           </div>
