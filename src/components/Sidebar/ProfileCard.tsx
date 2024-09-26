@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProfileCard.css";
-import ProfileImage from "../../../public/assets/icons/profilepic.svg";
+import ProfileImage from "/assets/icons/profilepic.svg";
 
 const ProfileCard: React.FC = () => {
   return (

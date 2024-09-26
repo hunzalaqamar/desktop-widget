@@ -1,8 +1,8 @@
 import React from "react";
 import "./RatingComponent.css";
-import GoogleLogo from "../../../public/assets/icons/googlelogo.svg";
-import FullStar from "../../../public/assets/icons/fullstar.svg";
-import HalfStar from "../../../public/assets/icons/halfstar.svg";
+import GoogleLogo from "/assets/icons/googlelogo.svg";
+import FullStar from "/assets/icons/fullstar.svg";
+import HalfStar from "/assets/icons/halfstar.svg";
 
 const RatingComponent: React.FC = () => {
   return (

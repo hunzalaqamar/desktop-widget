@@ -1,14 +1,14 @@
 import React from "react";
 import "./Sidebar.css";
 import SidebarItem from "./SidebarItem";
-import Buildings from "../../../public/assets/icons/buildings.svg";
-import Logo from "../../../public/assets/icons/logo.svg";
-import Tools from "../../../public/assets/icons/tools.svg";
-import Updown from "../../../public/assets/icons/updown.svg";
-import Clipboard from "../../../public/assets/icons/clipboard.svg";
-import Book from "../../../public/assets/icons/book.svg";
-import Compass from "../../../public/assets/icons/compass.svg";
-import Flag from "../../../public/assets/icons/flag.svg";
+import Buildings from "/assets/icons/buildings.svg";
+import Logo from "/assets/icons/logo.svg";
+import Tools from "/assets/icons/tools.svg";
+import Updown from "/assets/icons/updown.svg";
+import Clipboard from "/assets/icons/clipboard.svg";
+import Book from "/assets/icons/book.svg";
+import Compass from "/assets/icons/compass.svg";
+import Flag from "/assets/icons/flag.svg";
 import RatingComponent from "./RatingComponent";
 import ProfileCard from "./ProfileCard";
 
